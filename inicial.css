@@ -1,23 +1,42 @@
+@import url("https://fonts.cdnfonts.com/css/codec-pro");
 @import url("https://fonts.cdnfonts.com/css/trajanusbricks");
-@import url("https://fonts.cdnfonts.com/css/quahon");
 
-body {
-  background-color: #591902;
+#carouselExampleIndicators {
+  padding: 50px;
 }
 
 #menu {
-  background-image: url("https://39124.cdn.simplo7.net/static/39124/sku/papel-de-parede-tijolo-Papel-de-Parede-Tijolo-Cinza-Laranja-Pedras-Adesivo-Autocolante-PD03-Copia-1-copia-1-1462447534852.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 80px;
+  backdrop-filter: blur(2px) saturate(128%);
+  -webkit-backdrop-filter: blur(2px) saturate(128%);
+  background-color: rgba(89, 25, 2, 0.94);
+  height: 100px;
   text-align: center;
   padding-top: 30px;
   font-size: 20px;
 }
-                     
-span {
-  backdrop-filter: blur(6px) saturate(0%);
-  -webkit-backdrop-filter: blur(6px) saturate(0%);
+
+.coiso {
+  margin: 30px;
+  font-family: "Codec Pro", sans-serif;
+}
+
+#body {
+  background-image: url("https://39124.cdn.simplo7.net/static/39124/sku/papel-de-parede-tijolo-Papel-de-Parede-Tijolo-Cinza-Laranja-Pedras-Adesivo-Autocolante-PD03-Copia-1-copia-1-1462447534852.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "TrajanusBricks", sans-serif;
+  text-align: center;
+  color: #8c2703;
+  backdrop-filter: blur(24px) saturate(127%);
+  -webkit-backdrop-filter: blur(24px) saturate(127%);
+  background-color: rgba(255, 255, 255, 0.39);
+  border-radius: 2px;
+}
+
+ .coiso{
   background-color: rgba(191, 133, 99, 0.76);
   border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.125);
@@ -26,8 +45,9 @@ span {
 }
 
 #produtos {
-  background-image: url("https://images.tcdn.com.br/img/img_prod/720390/bricks_tijolo_a_vista_marrom_vintage_escuro_rustico_74_81_4_44b9d3a03b3163023d490a51ee2a9dbf.jpg");
-  background-position: center;
+  backdrop-filter: blur(6px) saturate(128%);
+  -webkit-backdrop-filter: blur(6px) saturate(128%);
+  background-color: rgba(89, 25, 2, 0.54);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   display: inline-block;
@@ -45,30 +65,14 @@ figure {
 
 figcaption {
   text-align: center;
-  
+
   color: #f7dbb0;
   font-size: 25px;
 }
 
-img {
+.t {
   border-radius: 85% 15% 70% 30% / 30% 61% 39% 70%;
   padding-left: 20px;
-}
-
-#tijolo {
-  border-radius: 0px;
-  padding-bottom: 20px;
-  margin-left: 600px;
-}
-
-h1 {
-  font-family: "TrajanusBricks", sans-serif;
-  text-align: center;
-  color: #8c2703;
-  backdrop-filter: blur(24px) saturate(127%);
-  -webkit-backdrop-filter: blur(24px) saturate(127%);
-  background-color: rgba(255, 255, 255, 0.39);
-  border-radius: 2px;
 }
 
 footer {
