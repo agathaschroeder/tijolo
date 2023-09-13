@@ -1,64 +1,107 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <title>Lojinha de tijolo</title>
-   <link rel="stylesheet" href="inicial.css">
-  <link href="https://fonts.cdnfonts.com/css/quahon" rel="stylesheet">
-  <link href="https://fonts.cdnfonts.com/css/halfbrickia-2" rel="stylesheet">
+  <title>Lojinha de Tijolo</title>
+  <!-- Incluindo os arquivos CSS do Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="inicial.css">
 </head>
 
-<body>
-
+<body id="body">
+  <nav>
     <div id="menu">
-      <br>
       <span>
-        <a style="color:#F7DBB0" href="cadastro.html">Formulário de Cadastro</a>
-      </span>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP2qjbiokbDiaqrokPYcvz6MFkil_s_pxshTgoXzOe7NAXhentZyoYAqj5tkqVnq16X8M&usqp=CAU" alt="" width="70" height="70"
+        <br>
+        <span class="coiso">
+          <a style="color:#c11c0e" href="inicial.html">Início</a>
+        </span>
+        <span class="coiso">
+          <a style="color:#c11c0e" href="cadastro.html">Formulário de Cadastro</a>
+        </span>
 
-      <span>
-        <a style="color:#F7DBB0" href="produtos.html">Produtos</a>
-      </span>
+        <span class="coiso">
+          <a style="color:#c11c0e" href="produtos.html">Produtos</a>
+        </span>
 
-      <span>
-        <a style="color:#F7DBB0" href="carrinho.html">Carrinho</a>
-      </span>
+        <span class="coiso">
+          <a style="color:#c11c0e" href="carrinho.html">Carrinho</a>
+        </span>
 
-      <span>
-        <a style="color:#F7DBB0" href="contato.html">Reclame Aqui</a>
-      </span>
+        <span class="coiso">
+          <a style="color:#c11c0e" href="contato.html">Reclame Aqui</a>
+        </span>
 
     </div>
+  </nav>
 
   <h1>Lojinha de Tijolo</h1>
-  <img id="tijolo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSxV-rq8CRflPOJ5dW7Hwyo5bECjYrF4C2Uw&usqp=CAU" alt="">
-  <br>
-  
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+    <!--Area de indicadores das imagens-->
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+
+      <!--Produto 1-->
+      <div class="carousel-item active">
+        <img src="tijoloo.jpg" class="d-block w-100" alt="Slide 1"  width="700" height="400">
+      </div>
+
+      <!--Produto 2-->
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjOEC3-A1yhi9YE4D1AobiHjlNi4wl-YWDQRlDw5vUlb0ynY9rfdcpSrAMWtjgPK9JmUM&usqp=CAU" class="d-block w-100" alt="Slide 2"  width="700" height="400">
+      </div>
+
+      <!--Produto 3-->
+      <div class="carousel-item">
+        <img src="https://soobra.com.br/wp-content/uploads/2021/10/tijolo_baiano.jpg" class="d-block w-100" alt="Slide 3" width="700" height="400">
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </a>
+  </div>
+
+  <!-- Incluindo os arquivos JavaScript do Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
   <div id="produtos">
     <figure>
       <figcaption>Tijolo Comum</figcaption>
-      <img id="t" src="https://images.tcdn.com.br/img/img_prod/910559/tijolo_comum_de_barro_4_3x9_1x18cm_269_1_f15b6b5d2f3eff57046e23e9acb1fafc.jpg" alt="" width="150" height="150">
+      <img class="t" src="https://images.tcdn.com.br/img/img_prod/910559/tijolo_comum_de_barro_4_3x9_1x18cm_269_1_f15b6b5d2f3eff57046e23e9acb1fafc.jpg" alt="" width="150" height="150">
       <figcaption> R$0,40 cada</figcaption>
     </figure>
     <figure>
       <figcaption>Tijolo Baiano</figcaption>
-      <img id="t" src="https://xn--naturallfarmaonline-iccf.lojagratis.shop/uplimg/img_A_928471_96e327a955b1556df7ba54046eed2107.jpg" alt="" width="150" height="150">
+      <img class="t" src="https://xn--naturallfarmaonline-iccf.lojagratis.shop/uplimg/img_A_928471_96e327a955b1556df7ba54046eed2107.jpg" alt="" width="150" height="150">
       <figcaption> R$1,00 cada</figcaption>
     </figure>
     <figure>
       <figcaption> Tijolo Vazado</figcaption>
-      <img id="t" src="https://cdn.avanteplus.com.br/stores/vilarcariocagrupotmc/image/200937-tijolo-vaz6306.jpg" alt="" width="150" height="150">
+      <img class="t" src="https://cdn.avanteplus.com.br/stores/vilarcariocagrupotmc/image/200937-tijolo-vaz6306.jpg" alt="" width="150" height="150">
       <figcaption> R$2,50 cada</figcaption>
     </figure>
     <figure>
       <figcaption> Tijolo Maciço</figcaption>
-      <img id="t" src="https://cdn.leroymerlin.com.br/products/tijolo_macico_5,5x11x23cm_braunas_85981056_ecb3_600x600.jpg" alt="" width="150" height="150">
+      <img class="t" src="https://cdn.leroymerlin.com.br/products/tijolo_macico_5,5x11x23cm_braunas_85981056_ecb3_600x600.jpg" alt="" width="150" height="150">
       <figcaption>R$1,00 cada</figcaption>
     </figure>
     <figure>
       <figcaption> Tijolo ecologico</figcaption>
-      <img id="t" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrVzfh6sN_0uG85F5SX2cEpgdVoVc5IN7NbD4ja_IaokxAucZFKkFLp5FFspvibUA0Ms&usqp=CAU" alt="" width="150" height="150">
-      <figcaption>  R$1,25 cada</figcaption>
+      <img class="t" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrVzfh6sN_0uG85F5SX2cEpgdVoVc5IN7NbD4ja_IaokxAucZFKkFLp5FFspvibUA0Ms&usqp=CAU" alt="" width="150" height="150">
+      <figcaption> R$1,25 cada</figcaption>
     </figure>
   </div>
 
@@ -70,16 +113,10 @@
       <p>Numero:654335687</p>
 
       <p>Email: vvgtcvhg@gmail.com</p>
-
-    </address>
-
-    <address>
-
       <p>&copy;Direitos reservados para Tijolos</p>
     </address>
 
   </footer>
-
 </body>
 
 </html>
