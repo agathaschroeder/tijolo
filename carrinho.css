@@ -1,0 +1,108 @@
+@import url("https://fonts.cdnfonts.com/css/trajanusbricks");
+
+#menu {
+  backdrop-filter: blur(2px) saturate(128%);
+  -webkit-backdrop-filter: blur(2px) saturate(128%);
+  background-color: rgba(89, 25, 2, 0.94);
+  height: 100px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+span {
+  background-color: rgba(191, 133, 99, 0.76);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 10px;
+  margin: 30px;
+}
+
+body {
+  background-image: url("https://39124.cdn.simplo7.net/static/39124/sku/papel-de-parede-tijolo-Papel-de-Parede-Tijolo-Cinza-Laranja-Pedras-Adesivo-Autocolante-PD03-Copia-1-copia-1-1462447534852.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "TrajanusBricks", sans-serif;
+  text-align: center;
+  color: #8c2703;
+  backdrop-filter: blur(24px) saturate(127%);
+  -webkit-backdrop-filter: blur(24px) saturate(127%);
+  background-color: rgba(255, 255, 255, 0.39);
+  border-radius: 2px;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+#div1 {
+  backdrop-filter: blur(6px) saturate(128%);
+  -webkit-backdrop-filter: blur(6px) saturate(128%);
+  background-color: rgba(89, 25, 2, 0.54);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  width: 1190px;
+  margin-left: 100px;
+}
+
+.t {
+  margin: 20px;
+  border-radius: 85% 15% 70% 30% / 30% 61% 39% 70%;
+}
+
+#titulos {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  color: #d6623f;
+  font-size: 24px;
+}
+
+.comum {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  color: #d6502c;
+  font-size: 23px;
+}
+
+p {
+  margin-top: 90px;
+}
+
+#total {
+  display: grid;
+  grid-template-columns: 300px 1505px;
+  text-align: center;
+  font-size: 24px;
+  color: #f7dbb0;
+}
+
+#div2 {
+  backdrop-filter: blur(6px) saturate(62%);
+  -webkit-backdrop-filter: blur(6px) saturate(62%);
+  background-color: rgba(64, 12, 1, 0.89);
+  margin: 40px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  font-size: 24px;
+  text-align: center;
+}
+
+#pagamento {
+  color: #f7dbb0;
+}
+
+label {
+  margin: 20px;
+  font-size: 25px;
+}
+
+#pagar {
+  margin: 30px;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+}
