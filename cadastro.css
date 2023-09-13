@@ -2,16 +2,18 @@
 
 
 body {
-    background-color: #591902;
+  background-image: url("https://39124.cdn.simplo7.net/static/39124/sku/papel-de-parede-tijolo-Papel-de-Parede-Tijolo-Cinza-Laranja-Pedras-Adesivo-Autocolante-PD03-Copia-1-copia-1-1462447534852.jpg");
+  background-position: center;
+  background-size: cover;
   }
 #menu {
-    background-image: url("https://39124.cdn.simplo7.net/static/39124/sku/papel-de-parede-tijolo-Papel-de-Parede-Tijolo-Cinza-Laranja-Pedras-Adesivo-Autocolante-PD03-Copia-1-copia-1-1462447534852.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 80px;
-    text-align: center;
-    padding-top: 30px;
-    font-size: 20px;
+  backdrop-filter: blur(2px) saturate(128%);
+  -webkit-backdrop-filter: blur(2px) saturate(128%);
+  background-color: rgba(89, 25, 2, 0.94);
+  height: 100px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
 }
 span {
     backdrop-filter: blur(6px) saturate(0%);
@@ -24,9 +26,13 @@ span {
   }
   
 h1{
-    font-family: "TrajanusBricks", sans-serif;
-    text-align: center;
-    color: #591902; 
+  font-family: "TrajanusBricks", sans-serif;
+  text-align: center;
+  color: #8c2703;
+  backdrop-filter: blur(24px) saturate(127%);
+  -webkit-backdrop-filter: blur(24px) saturate(127%);
+  background-color: rgba(255, 255, 255, 0.39);
+  border-radius: 2px;
 }
 fieldset{
     background-color: aliceblue;
