@@ -55,7 +55,7 @@ h1 {
   text-align: center;
   display: grid;
   grid-template-columns: 500px 500px 500px;
-  color: #d6623f;
+  color: #ffffff;
   font-size: 24px;
 }
 
@@ -63,7 +63,7 @@ h1 {
   text-align: center;
   display: grid;
   grid-template-columns: 500px 500px 500px;
-  color: #d6502c;
+  color: #ffbb9b;
   font-size: 23px;
 }
 
