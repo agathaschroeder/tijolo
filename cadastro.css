@@ -28,13 +28,27 @@ span {
 h1{
   font-family: "TrajanusBricks", sans-serif;
   text-align: center;
+  margin-top: 75px;
   color: #8c2703;
   backdrop-filter: blur(24px) saturate(127%);
   -webkit-backdrop-filter: blur(24px) saturate(127%);
   background-color: rgba(255, 255, 255, 0.39);
   border-radius: 2px;
+  font-size: 30px;
 }
 fieldset{
     background-color: aliceblue;
     margin: 80px;
+}
+.div3{
+  backdrop-filter: blur(6px) saturate(62%);
+  -webkit-backdrop-filter: blur(6px) saturate(62%);
+  background-color: rgba(64, 12, 1, 0.89);
+  margin: 75px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  font-size: 24px;
+  text-align: center;
+  padding: 25px;
+  color:beige
 }
