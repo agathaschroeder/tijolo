@@ -39,34 +39,40 @@ h1 {
   backdrop-filter: blur(6px) saturate(128%);
   -webkit-backdrop-filter: blur(6px) saturate(128%);
   background-color: rgba(89, 25, 2, 0.54);
-  border-radius: 12px;
+  border-radius: 42px;
   border: 1px solid rgba(255, 255, 255, 0.125);
-  width: 1450px;
+  width: 1380px;
   margin-left: 100px;
 }
 
 .t {
   margin: 20px;
   border-radius: 85% 15% 70% 30% / 30% 61% 39% 70%;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 #titulos {
   text-align: center;
   display: grid;
-  grid-template-columns: 500px 500px 500px;
+  grid-template-columns: 400px 500px 400px;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .comum {
   text-align: center;
   display: grid;
-  grid-template-columns: 500px 500px 500px;
+  grid-template-columns: 400px 500px 400px;
   color: #ffbb9b;
-  font-size: 23px;
+  font-size: 18px;
 }
 
 p {
-  margin-top: 70px;
+  margin-top: 75px;
 }
+
+figure{
+  font-size: 30px;
+}
+
+
