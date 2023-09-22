@@ -17,7 +17,161 @@
     <span>
       <a style="color:#F7DBB0" href="cadastro.html">Formulário de Cadastro</a>
     </span>
+<html>
 
+<head>
+  <title>carrinho</title>
+   <!-- Incluindo os arquivos CSS do Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="carrinho.css">
+</head>
+
+<body>
+
+  <div id="menu">
+    <br>
+    <span>
+      <a style="color:#F7DBB0" href="cadastro.html">Início</a>
+    </span>
+    <span>
+      <a style="color:#F7DBB0" href="cadastro.html">Formulário de Cadastro</a>
+    </span>
+
+    <span>
+      <a style="color:#F7DBB0" href="produtos.html">Produtos</a>
+    </span>
+
+    <span>
+      <a style="color:#F7DBB0" href="carrinho.html">Carrinho</a>
+    </span>
+
+    <span>
+      <a style="color:#F7DBB0" href="contato.html">Reclame Aqui</a>
+    </span>
+
+    <span class="coiso">
+      <a style="color:F7DBB0" href="login.html">Login</a>
+    </span>
+  </div>
+
+  <section>
+    <h1>Carrinho</h1>
+    <div id="div1">
+      <div id="titulos">
+        <h2>Produto</h2>
+        <h2>Preço Unid.</h2>
+        <h2>Quantidade</h2>
+        <h2>Subtotal</h2>
+      </div>
+      <div class="comum">
+        <figure>
+          <figcaption>Tijolo Comum</figcaption>
+          <img class="t" src="https://images.tcdn.com.br/img/img_prod/910559/tijolo_comum_de_barro_4_3x9_1x18cm_269_1_f15b6b5d2f3eff57046e23e9acb1fafc.jpg" alt="" width="120" height="119">
+        </figure>
+        <p>R$0,40</p>
+        <input type="number" value="1" min="0" class="product-qtd-input">
+        <button type="button" class="remove-product-button">Remover</button>
+        <p>R$24,00</p>
+      </div>
+
+      <div class="comum">
+        <tr>
+        <figure>
+          <figcaption>Tijolo Vazado</figcaption>
+          <img class="t" src="https://cdn.avanteplus.com.br/stores/vilarcariocagrupotmc/image/200937-tijolo-vaz6306.jpg" alt="" width="120" height="119">
+        </figure>
+        <p>R$2,50</p>
+        <input type="number" value="1" min="0" class="product-qtd-input">
+        <button type="button" class="remove-product-button">Remover</button>
+        <p>R$150,00</p>
+      </div>
+    </tr>
+    <td>
+      <div class="comum">
+        <figure>
+          <figcaption>Tijolo Baiano</figcaption>
+          <img class="t" src="https://xn--naturallfarmaonline-iccf.lojagratis.shop/uplimg/img_A_928471_96e327a955b1556df7ba54046eed2107.jpg" alt="" width="120" height="119">
+        </figure>
+        <p>R$1,00</p>
+        <input type="number" value="1" min="0" class="product-qtd-input">
+        <button type="button" class="remove-product-button">Remover</button>
+        <p>R$60,00</p>
+      </td>
+      </div>
+      <div id="total">
+        <h2>Total:</h2>
+        <h2>R$234,00</h2>
+      </div>
+    </div>
+
+    <div id="div2">
+      <form>
+        <h2 id="pagamento">Forma de Pagamento</h2>
+        <label for="debito">Débito</label>
+        <input type="checkbox" id="debito" name="debito">
+        <label for="credito">Crédito</label>
+        <input type="checkbox" id="credito" name="credito">
+        <label for="dinheiro">Dinheiro</label>
+        <input type="checkbox" id="dinheiro" name="dinheiro">
+        <label for="boleto">Boleto</label>
+        <input type="checkbox" id="boleto" name="boleto"><br>
+        <input id="pagar" type="submit" value="PAGAR">
+        <br>
+  </section>
+      
+      <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+         <!--Produto 1--->
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrVzfh6sN_0uG85F5SX2cEpgdVoVc5IN7NbD4ja_IaokxAucZFKkFLp5FFspvibUA0Ms&usqp=CAU" alt="" class="card-img-top" alt="Produto 1">
+          <div class="card-body">
+            <h5 class="card-title">Tijolo Ecológico</h5>
+            <p class="card-text">R$ 2,50 cada</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+      
+       <!--Produto 2-->
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img src="https://cdn.leroymerlin.com.br/products/tijolo_macico_5,5x11x23cm_braunas_85981056_ecb3_600x600.jpg"class="card-img-top" alt="Produto 2">
+          <div class="card-body">
+            <h5 class="card-title">Tijolo Maciço</h5>
+            <p class="card-text">R$ 1,00 cada</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+      
+      <!--Produto 3-->
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img src="https://images.tcdn.com.br/img/img_prod/931145/revestimento_tijolinho_brick_revest_brick_sepia_3_4_d44f5366e882085b5ef3b56700126073.jpg" class="card-img-top" alt="Produto 3">
+          <div class="card-body">
+            <h5 class="card-title">Tijolo brick sepia</h5>
+            <p class="card-text"> R$ 0,50 cada</p>
+            <a href="#" class="btn btn-primary">Comprar</a>         
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Incluindo os arquivos JavaScript do Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  
+
+  <footer>
+
+    <p>&copy;Direitos reservados para Tijolos</p>
+
+  </footer>
+ <script src="carrinho.js"></script>
+</body>
+
+</html>
     <span>
       <a style="color:#F7DBB0" href="produtos.html">Produtos</a>
     </span>
