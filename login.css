@@ -1,0 +1,65 @@
+@import url("https://fonts.cdnfonts.com/css/trajanusbricks");
+#menu {
+    backdrop-filter: blur(2px) saturate(128%);
+    -webkit-backdrop-filter: blur(2px) saturate(128%);
+    background-color: rgba(89, 25, 2, 0.94);
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+  }
+
+  body {
+    background-image: url("https://39124.cdn.simplo7.net/static/39124/sku/papel-de-parede-tijolo-Papel-de-Parede-Tijolo-Cinza-Laranja-Pedras-Adesivo-Autocolante-PD03-Copia-1-copia-1-1462447534852.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+span {
+    background-color: rgba(191, 133, 99, 0.76);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 10px;
+    margin: 30px;
+  }
+
+  h1 {
+    font-family: "TrajanusBricks", sans-serif;
+    text-align: center;
+    color: #8c2703;
+    backdrop-filter: blur(24px) saturate(127%);
+    -webkit-backdrop-filter: blur(24px) saturate(127%);
+    background-color: rgba(255, 255, 255, 0.39);
+    border-radius: 2px;
+    font-size: 30px;
+  }
+
+  #div1 {
+    backdrop-filter: blur(6px) saturate(62%);
+    -webkit-backdrop-filter: blur(6px) saturate(62%);
+    background-color: rgba(64, 12, 1, 0.89);
+    margin: 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    font-size: 24px;
+    text-align: center;
+    padding: 25px;
+  }
+
+.div3{
+    backdrop-filter: blur(6px) saturate(62%);
+    -webkit-backdrop-filter: blur(6px) saturate(62%);
+    background-color: rgba(64, 12, 1, 0.89);
+    margin: 305px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    font-size: 24px;
+    margin-top: 60px;
+    text-align: center;
+    padding: 25px;
+    color:rgb(245, 222, 174)
+    
+  }
+footer{
+    margin-top: 30px;
+}
